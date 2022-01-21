@@ -19,7 +19,7 @@ if (!class_exists("WebFarrockIblockPropLocation")) {
 
         // представление свойства в списке (главный модуль, инфоблок)
         function GetAdminListViewHTML($arProperty, $value) {
-            return self::getViewHTML('dddd', $value['VALUE']);
+            return self::getViewHTML('dcrm', $value['VALUE']);
         }
 
         // редактирование свойства в форме и списке (инфоблок)
